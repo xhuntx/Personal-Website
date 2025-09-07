@@ -65,6 +65,7 @@ export default function Main() {
         </ScrollReveal>
 
         <ScrollReveal>
+          <h3 className='text-2xl'> I'm a:</h3>
           <li className="text-lg text-white">Tennis Player</li>
           <li className="text-lg text-white">Video Editor</li> 
           <li className="text-lg text-white">Student @ UAG</li>
