@@ -1,6 +1,6 @@
 # Hunter Davis - Personal Website
 
-Hunter, insert your description here.
+Hello and welcome to my personal website where you can get to know what I'm about and if you have any questions don't be afriad to email or dm me 
 
 ## Quick Start
 
