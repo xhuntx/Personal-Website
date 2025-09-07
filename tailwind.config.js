@@ -1,11 +1,9 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
     extend: {
-      // Custom animations for better performance
       animation: {
         'fade-in': 'fadeIn 0.8s ease-out',
         'slide-up': 'slideUp 0.8s ease-out',
@@ -25,7 +23,6 @@ module.exports = {
           '100%': { transform: 'scale(1)', opacity: '1' },
         },
       },
-      // Custom colors for better consistency
       colors: {
         primary: {
           50: '#eff6ff',
