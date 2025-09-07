@@ -175,7 +175,7 @@ const App = memo(() => {
               <h2 className="text-4xl md:text-5xl font-bold text-purple-400 mb-12">
               My socials:
               </h2>
-              <div className="flex justify-center gap-6">
+            <div className="flex flex-col items-center justify-center gap-6">
                 <Github />
                 <Instagram />
               </div>
