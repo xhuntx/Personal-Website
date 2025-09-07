@@ -142,7 +142,7 @@ const App = memo(() => {
           <ScrollReveal>
             <div className='border-2 border-gray-400 rounded-xl p-8 bg-gray-800 shadow-lg max-w-md text-center flex flex-col'>
               <h2 className="text-4xl md:text-5xl font-bold text-purple-400 mb-12">
-                And here are my socials:
+              My socials:
               </h2>
               <div className="flex justify-center gap-6">
                 <Github />
