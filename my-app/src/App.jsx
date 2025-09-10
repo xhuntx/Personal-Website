@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import PropTypes from 'prop-types';
 import { usePerformance } from './hooks/usePerformance';
 import { Routes, Route, Link } from "react-router-dom"; 
+import { Analytics } from "@vercel/analytics/react"
 import ProjectsPage from "./components/ProjectsPage";
 
 export const ScrollReveal = memo(({ children, className = 'my-8' }) => {
@@ -214,6 +215,7 @@ const App = memo(() => {
                 </div>
               </ScrollReveal>
             </section>
+            <Analytics />
           </>
         } />
 
