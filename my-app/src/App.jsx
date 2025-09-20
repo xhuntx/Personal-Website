@@ -161,7 +161,7 @@ const App = memo(() => {
 
   return (
     <div className="min-h-screen bg-slate-800 text-white">
-      {/* <NavBar/> */}
+      <NavBar/>
       <Routes>
         <Route path="/" element={
           <>
