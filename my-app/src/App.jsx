@@ -161,7 +161,7 @@ const App = memo(() => {
 
   return (
     <div className="min-h-screen bg-slate-800 text-white">
-      <NavBar/>
+      {/* <NavBar/> */}
       <Routes>
         <Route path="/" element={
           <>
@@ -183,7 +183,7 @@ const App = memo(() => {
               <div className="flex flex-col md:flex-row gap-12 justify-center items-center">
                 <ScrollReveal>
                   <div className='rounded-xl p-8 bg-gray-800 shadow-lg max-w-md text-center flex flex-col justify-center'>
-                    <h2 className="text-4xl md:text-5xl font-bold text-green-400 mb-12">
+                    <h2 className="text-4xl md:text-5xl font-bold text-blue-400 mb-12">
                       Who am I?
                     </h2>
                     <ul className="space-y-4 text-lg md:text-xl">
@@ -194,7 +194,7 @@ const App = memo(() => {
 
                 <ScrollReveal>
                   <div className='rounded-xl p-8 bg-gray-800 shadow-lg max-w-md text-center flex flex-col'>
-                    <h2 className="text-4xl md:text-5xl font-bold text-purple-400 mb-12">
+                    <h2 className="text-4xl md:text-5xl font-bold text-cyan-200 mb-12">
                       My socials:
                     </h2>
                     <div className="flex flex-col items-center justify-center gap-6">
@@ -206,7 +206,7 @@ const App = memo(() => {
               </div>
               <ScrollReveal className="flex justify-center">
                 <div className='rounded-xl p-8 bg-gray-800 shadow-lg max-w-md text-center flex flex-col'>
-                 <h2 className='text-4xl md:texct-5xl font-bold text-emerald-600 mb-12'>
+                 <h2 className='text-4xl md:texct-5xl font-bold text-indigo-400 mb-12'>
                   My Projects
                  </h2>
                   <div className="flex justify-center">

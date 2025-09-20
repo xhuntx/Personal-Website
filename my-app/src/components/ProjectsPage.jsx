@@ -1,10 +1,18 @@
 import React, { memo } from "react";
+import { ScrollReveal } from "../App";
+
+
 
 const ProjectsPage = memo(() =>{
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold mb-6">My Projects:</h1>
-      <p className="text-lg">Coming Soon 🧑🏼‍💻</p>
+      <ScrollReveal className="text-center">
+        <div>
+          <div className="bg-zinc-700 shadow-lg rounded-lg p-8 max-w-md text-center flex flex-col justify-center">
+            
+          </div>
+        </div>
+      </ScrollReveal>
     </div>
   );
 });
