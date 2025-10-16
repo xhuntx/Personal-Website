@@ -49,12 +49,12 @@ export const ScrollReveal = memo(({ children, className = 'my-8' }) => {
     </motion.div>
   );
 });
-
 ScrollReveal.displayName = 'ScrollReveal';
 ScrollReveal.propTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
 };
+
 
 const Github = memo(() => {
   return (
